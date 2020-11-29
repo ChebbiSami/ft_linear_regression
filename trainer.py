@@ -128,10 +128,8 @@ dataset = dataset[1:,:]
 x = dataset[:,0]
 y = dataset[:,1]
 m =len(y)
-
 x = np.reshape(x, (len(x),1))
 y = np.reshape(y, (len(y),1))
-
 
 if (arg_[5] != 0):
     print("Normalising data")
