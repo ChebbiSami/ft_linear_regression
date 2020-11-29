@@ -5,50 +5,12 @@ import math
 import sys
 
 
-##get dataset nb line
-def CsvNbLines(CsvFileName):
-    try:
-        with open(CsvFileName) as csv_file:
-            csv_reader = csv.reader(csv_file, delimiter=',')
-            line_count = 0
-            for row in csv_reader:
-                line_count = line_count + 1
-        return (line_count)
-    except:
-        print("dataset file not found!")
-        sys.exit()
-
 def isfloat(value):
   try:
     float(value)
     return True
   except ValueError:
     return False
-
-##get x and y from dataset named CsvFileName
-def Get_x_y(CsvFileName,x,y,divide_):
-    with open(CsvFileName) as csv_file:
-        csv_reader = csv.reader(csv_file, delimiter=',')
-        line_count = 0
-        for row in csv_reader:
-            if (len(row) != 2):
-                print("Dataset corrupted")
-                sys.exit()
-            a,b = row
-            if (line_count > 0):
-                try:
-                    a = float(a)
-                    b = float(b)
-                    if (a < 0 or b < 0):
-                        print("Dataset corrupted")
-                        sys.exit()
-                except:
-                    print("Dataset corrupted")
-                    sys.exit()
-                x[line_count-1] = a
-                y[line_count-1] = b
-            line_count = line_count + 1
-        return x,y
 
 ##creation of the model  F=X.theta
 def model(X, theta):
