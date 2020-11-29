@@ -4,11 +4,11 @@ This project is about creating a program that predicts the price of a car by usi
 ## Usage
 
 ### First step
-first step is to train the model with the program trainer.py
+Train the model with the program trainer.py :
 ```
 python3 trainer.py
 ```
-you can also use option in this first step:
+You can also use options :
 ```
  python3 trainer.py -h
   -h  print this help message
@@ -19,10 +19,10 @@ you can also use option in this first step:
   -it specify number of iterations that is by default set to 1000
   -v  verbose mode, print each step of the traning procesus
 ```
-the first step will generate the file result.csv that will be used in the segond step
+The first step will generate the file result.csv that will be used in the segond step
 ### Second step
 
-then type
+Then type :
 ```
 python3 resolver.py
 ```
