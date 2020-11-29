@@ -2,6 +2,8 @@
 This project is about creating a program that predicts the price of a car by using a linear function train with a gradient descent algorithm
 ./subject/ft_linear_regression.pdf for more details
 ## usage
+
+### first step
 first step is to train the model with the program trainer.py
 ```
 python3 trainer.py
@@ -18,8 +20,11 @@ you can also use option in this first step:
   -v  verbose mode, print each step of the traning procesus
 ```
 the first step will generate the file result.csv that will be used in the segond step
+### second step
+
+then type
 ```
 python3 resolver.py
-  Please specify a number of km for getting a prediction of car price:
 ```
 
+for getting prediction
