@@ -1,5 +1,5 @@
 # ft_linear_regression
-this is the introduction project of the 42 school to machine learning.<br />
+This is the 42 school introduction project to machine learning.<br />
 This project is about creating a program that predicts the price of a car by using a linear function train with a gradient descent algorithm.<br />
 ./subject/ft_linear_regression.pdf for more details.<br />
 ## Usage
@@ -27,4 +27,4 @@ Then type :
 ```
 python3 resolver.py
 ```
-and follow instructions 
+Then follow instructions.
