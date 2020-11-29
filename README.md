@@ -23,7 +23,7 @@ You can also use options :
 The first step will generate the file result.csv that will be used in the segond step
 ### Second step
 
-Then type :
+Type :
 ```
 python3 resolver.py
 ```
