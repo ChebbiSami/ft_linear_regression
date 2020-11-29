@@ -1,5 +1,5 @@
 # ft_linear_regression
-this is the introduction project of the 42 school to machine learning. 
+this is the introduction project of the 42 school to machine learning.\n
 This project is about creating a program that predicts the price of a car by using a linear function train with a gradient descent algorithm.
 ./subject/ft_linear_regression.pdf for more details
 ## Usage
