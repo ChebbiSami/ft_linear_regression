@@ -1,7 +1,7 @@
 # ft_linear_regression
 This project is about creating a program that predicts the price of a car by using a linear function train with a gradient descent algorithm
 ./subject/ft_linear_regression.pdf for more details
-##usage
+## usage
 first step is to train the model with the program trainer.py
 ```
 python3 trainer.py
